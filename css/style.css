@@ -1,0 +1,47 @@
+/* Reset box model */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default typography styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* Remove hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default form styles */
+input,
+textarea,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+/* Additional reset styles can be added as needed */
