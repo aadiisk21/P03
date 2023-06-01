@@ -5,9 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: hsl(185, 75%, 39%);
     position: relative;
     z-index: 1;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 /* Remove list styles */
@@ -53,6 +53,8 @@ button {
     height: 100vh;
     border: 1px solid black;
     overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+
 }
 
 .back-ground {
@@ -72,7 +74,7 @@ button {
 }
 
 .bottom-img img {
-    bottom: -20rem;
+    bottom: -24rem;
     left: 1rem;
 }
 
@@ -86,4 +88,93 @@ button {
         bottom: -10rem;
         left: 0rem;
     }
+}
+
+.profile_card {
+    display: relative;
+    overflow: hidden;
+    z-index: 10;
+    width: 350px;
+    height: 370px;
+    top: 30%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); */
+    /* border: 1px solid black; */
+}
+
+.profile_content {
+    width: 100%;
+    height: auto;
+}
+
+.profile_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -60px;
+}
+
+.profile_img img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    top: -1.5rem;
+    padding-bottom: 1rem;
+}
+
+.profile_name {
+    display: flex;
+    top: -.5rem;
+}
+
+.profile_name h1 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.profile_name p {
+    margin-left: 8px;
+    color: hsl(227, 10%, 46%);
+}
+
+.city h5{
+    font-size: 14px;
+    color: hsl(227, 10%, 46%);      
+}
+
+.profile_stats {
+    border-top: 1px solid rgba(169, 169, 169, 0.504);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: -1rem;
+}
+
+.profile_stats_item {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.profile_stats_item h5 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.profile_stats_item p {
+    margin-top: 4px;
+    color: hsl(227, 10%, 46%);
+    font-size: 10px;
+    letter-spacing: 1.5px;
 }
