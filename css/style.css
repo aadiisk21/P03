@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    z-index: 1;
 }
 
 /* Remove list styles */
@@ -45,3 +48,30 @@ button {
 }
 
 /* Additional reset styles can be added as needed */
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+ .back-ground {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+.top-img img {
+    top: -30rem;
+    right: 1rem;
+}
+
+.bottom-img img {
+    bottom: -20rem;
+    left: 1rem;
+}
