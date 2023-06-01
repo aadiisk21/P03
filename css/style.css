@@ -58,7 +58,6 @@ button {
 }
 
 .back-ground {
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -100,8 +99,6 @@ button {
     margin: 0 auto;
     border-radius: 15px;
     background-color: white;
-    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); */
-    /* border: 1px solid black; */
 }
 
 .profile_content {
@@ -116,7 +113,7 @@ button {
     top: -60px;
 }
 
-.profile_img img{
+.profile_img img {
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -147,9 +144,9 @@ button {
     color: hsl(227, 10%, 46%);
 }
 
-.city h5{
+.city h5 {
     font-size: 14px;
-    color: hsl(227, 10%, 46%);      
+    color: hsl(227, 10%, 46%);
 }
 
 .profile_stats {
@@ -177,4 +174,12 @@ button {
     color: hsl(227, 10%, 46%);
     font-size: 10px;
     letter-spacing: 1.5px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50%;
 }
