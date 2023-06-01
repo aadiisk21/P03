@@ -55,12 +55,12 @@ button {
     overflow: hidden;
 }
 
- .back-ground {
+.back-ground {
+    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     overflow: hidden;
     position: absolute;
     z-index: 2;
@@ -74,4 +74,16 @@ button {
 .bottom-img img {
     bottom: -20rem;
     left: 1rem;
+}
+
+@media screen and (max-width:375px) {
+    .top-img img {
+        top: -30rem;
+        right: 0;
+    }
+
+    .bottom-img img {
+        bottom: -10rem;
+        left: 0rem;
+    }
 }
